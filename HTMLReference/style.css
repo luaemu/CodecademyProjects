@@ -1,0 +1,82 @@
+/* 
+*-----*
+COLORS
+*-----*
+
+#031926 - Rich Black
+#18323A - Gunmetal
+#254D58 - Midnight green
+#35666E - Caribbean current
+#468189 - Teal
+#77ACA2 - Cambridge Blue
+#9DBEBB - Ash Gray
+
+*/
+
+:root {
+    --rich-black: #031926;
+    --gunmetal: #18323A;
+    --midnight-green: #254D58;
+    --caribbean-current: #35666E;
+    --teal: #468189;
+    --cambridge-blue: #77ACA2;
+    --ash-gray: #9DBEBB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 12pt 16pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--rich-black);
+}
+
+header {
+    width: 100%;
+    background-color: var(--gunmetal);
+    color: var(--ash-gray);
+    text-align: center;
+}
+
+table {
+    color: var(--ash-gray);
+    margin: 8pt;
+    border-collapse: collapse;
+    border: 3pt solid var(--ash-gray);
+
+}
+
+table thead {
+    background-color: #254D58;
+    border: 2pt solid var(--ash-gray);
+}
+
+table th {
+    padding: 4pt 8pt;
+    font-style: italic;
+    font-size: 16pt;
+    font-weight: lighter;
+    color: white;
+    text-align: justify;
+    border-right: 2pt dashed var(--cambridge-blue);
+}
+
+table tr {
+    font-size: 12pt;
+    text-align: center;
+}
+
+table td {
+    background-color: var(--gunmetal);
+    padding: 4pt;
+    border-right: 2pt solid var(--cambridge-blue);
+}
+
+table span.code {
+    background-color: #35666E;
+    color: #60afb9;
+    font-family: 'Courier New', Courier, monospace;
+}

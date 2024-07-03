@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 8px;
+    padding: 12px;
+    font-family: Helvetica, sans-serif;
+}
+
+header h1 {
+    width: 100%;
+    margin-bottom: 36px;
+    text-align: center;
+    background-image: url("./img/pattern.jpeg");
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+.product-name {
+    margin-bottom: 12px;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.product-name#brushes {
+    background-color: mediumspringgreen;
+}
+
+.product-name#frames {
+    background-color: lightcoral;
+}
+
+.product-name#paint {
+    background-color: skyblue;
+}
+
+.product-subtitle {
+    font-weight: bold;
+}
+
+.product-price {
+    font-weight: bold;
+    color: blue;
+}
